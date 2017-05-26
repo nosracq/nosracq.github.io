@@ -2,3 +2,17 @@
   font-family: 'Permanent Marker', cursive;
   font-size: 36px;
 }
+
+.jumbotron {
+  height: 450px;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+.banner-content {
+  padding-top: 7%;
+}
+.img-thumbnail {
+  width: 150px;
+  height: 150px;
+}
