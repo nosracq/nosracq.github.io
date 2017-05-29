@@ -2,12 +2,12 @@
   font-family: 'Permanent Marker', cursive;
   font-size: 36px;
 }
-
-.jumbotron {
+.banner {
   height: 450px;
   background-image: url("background.jpg");
   background-size: cover;
   background-position: center center;
+  margin-bottom: 0px;
 }
 .banner-content {
   padding-top: 6%;
@@ -18,14 +18,31 @@
   width: 150px;
   height: 150px;
 }
-
 hr {
   border-style: solid;
   border-color: white;
 }
-
 .portrait {
   border-radius: 50%;
   width: 200px;
   height: 200px;
+}
+
+.container-fluid {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+#about {
+  background-color: blue;
+  height: 300px;
+}
+#resume {
+  background-color: green;
+  height: 300px;
+}
+#contact {
+  background-color: orange;
+  height: 300px;
 }
