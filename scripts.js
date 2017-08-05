@@ -6,12 +6,12 @@ $(document).ready(function () {
     });
     $("a[href*=resume]").click(function() {
       $('html, body').animate({
-        scrollTop: $("#resume").offset().top - 78
+        scrollTop: $("#resume").offset().top - 50
       }, 800);
     });
     $("a[href*=contact]").click(function() {
       $('html, body').animate({
-        scrollTop: $("#contact").offset().top - 78
+        scrollTop: $("#contact").offset().top - 50
       }, 800);
     });
 });
