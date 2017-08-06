@@ -4,9 +4,9 @@ $(document).ready(function () {
         scrollTop: $("#about").offset().top - 78
       }, 800);
     });
-    $("a[href*=resume]").click(function() {
+    $("a[href*=projects]").click(function() {
       $('html, body').animate({
-        scrollTop: $("#resume").offset().top - 50
+        scrollTop: $("#projects").offset().top - 50
       }, 800);
     });
     $("a[href*=contact]").click(function() {
