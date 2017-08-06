@@ -23,7 +23,7 @@ body {
   color: white;
 }
 .img-thumbnail {
-  width: 150px;
+  width: 250px;
   height: 150px;
 }
 hr {
@@ -46,12 +46,20 @@ hr {
   height: 25%;
   padding: 78px 10% 78px 10%;
 }
-#resume {
+#projects {
   background-color: lightgrey;
-
-  height: 25%;
-  padding-top: 78px;
+  height: minmax(25%, auto);
+  padding: 78px 3em 3em 3em;
 }
+
+#projects p {
+  margin-top: 1em;
+}
+
+.projects-title {
+  margin-bottom: 3em;
+}
+
 #contact {
   background-color: #2b2b2b;
   color: white;
