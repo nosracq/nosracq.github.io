@@ -62,11 +62,13 @@ a:hover{
 
 #projects p {
   margin-top: 1em;
+  margin-bottom: 2em;
 }
 
 .projects-title {
   margin-bottom: 3em;
 }
+
 .project-image:hover {
   transform:scale(1.04);
 }
